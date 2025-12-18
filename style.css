@@ -1,0 +1,70 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+}
+  #fetchBtn{
+    padding: 10px 20px;
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3;
+}
+#fetchBtn:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+#userContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px
+}
+.usercard{
+    border-radius: 10px;
+    padding: 15 px;
+    width: 220;
+    border: 1px solid black;
+    transition: 0.3;
+}
+.usercard:hover{
+    transform :scale(1.1);
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+    
+}
+.box{
+    background-color: rgb(172, 15, 47);
+    color: antiquewhite;
+    font-size: x-large;
+    padding: 40px;
+    border-radius: 15px;
+    flex: 1;
+}
+
+/* Media Queries */
+@media(max-width:690px)
+{.container{
+    flex-direction: column;
+}
+.box
+{background-color: aqua;}}
+
+@media(min-width:691px) and
+(max-width:1100)
+{.container{
+    flex-direction: column;
+}
+.box
+{background-color: aqua;}}
